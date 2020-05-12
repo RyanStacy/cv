@@ -1,0 +1,11 @@
+h1 {
+    color: lightseagreen;
+    font-size:32px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: solid;
+    border-color: lightseagreen;
+}
