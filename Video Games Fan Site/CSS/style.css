@@ -1,11 +1,34 @@
+/* Tag Selectors */
+
 h1 {
     color: lightseagreen;
     font-size:32px;
 }
 
-img {
+img:hover {
+    background-color: gold;
+}
+
+/* Class Selectors */
+
+.videogameimage {
     height: auto;
     max-width: 100%;
     border: solid;
     border-color: lightseagreen;
+}
+
+.catimage {
+    height: auto;
+    max-width: 100%;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/* Id Selectors */
+
+#heading {
+    color: blue;
 }
