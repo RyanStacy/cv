@@ -46,3 +46,9 @@ Background: #d4f3ef
 Call to action: #ee8572
 
 */
+
+/* The following shows the mobile screen media query styling */
+
+@media screen and (min-width: 480px) {
+
+  }
