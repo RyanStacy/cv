@@ -1,4 +1,4 @@
-/* Tag Selectors */
+/* Body, H1-6, & Links */
 
 body {
     margin: 0;
@@ -32,10 +32,7 @@ a {
     color: #0000FF;
 }
 
-p {
-}
-
-/* Class Selectors */
+/* Containers */
 
 .top-container {
     background-color: #d4f3ef;
@@ -43,15 +40,7 @@ p {
     padding-top: 100px;
 }
 
-.middle-container {
-}
-
-.bottom-container {
-}
-
-.uxdev {
-    text-decoration: underline;
-}
+/* Images */
 
 .top-cloud {
     position: absolute;
@@ -65,25 +54,44 @@ p {
     bottom: 300px;
 }
 
-.subtitle {
-    color: brown;
-    font-weight: normal;
+.ux-design {
+    width: 30%;
+    float: left;
+    margin: auto 30px auto auto;
 }
 
-/* ID Selectors */
+.ux-research {
+    width: 30%;
+    float: right;
+    margin: auto auto auto 30px;
+}
 
+.front-end-dev {
+    width: 30%;
+    float: left;
+    margin: auto 30px auto auto;
+}
 
-/* Style Guide: Color
+/* Text - not parent H1-6 etc. */
 
-Primary text: #63b7af
-Secondary text: #abf0e9
-Background: #d4f3ef
-Call to action: #ee8572
+.uxdev {
+    text-decoration: underline;
+}
 
-*/
+.subheader {
+    font-weight: normal;
+    font-size: 1.5em;
+}
 
-/* The following shows the mobile screen media query styling */
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 
-@media screen and (min-width: 480px) {
-
-  }
+.profile {
+    width: 75%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
