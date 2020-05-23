@@ -1,6 +1,7 @@
 /* Body, H1-6, & Links */
 
 body {
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -21,6 +22,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -29,10 +31,16 @@ h3 {
 }
 
 a {
-    color: #0000FF;
+    color: #107074;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
 }
 
-/* Containers */
+a:hover {
+    color: #ffffff;
+}
+
+/* Containers, Lines, & Boxes */
 
 .top-container {
     background-color: #d4f3ef;
@@ -40,34 +48,51 @@ a {
     padding-top: 100px;
 }
 
+.middle-container {
+    margin: 50px 0;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0px 20px 0px;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted rgb(182, 182, 182);
+    width: 4%;
+    margin: 50px auto 50px auto;
+    clear: left;
+}
+
 /* Images */
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 200px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 200px;
     bottom: 300px;
 }
 
 .ux-design {
-    width: 30%;
+    max-width: 200px;
     float: left;
     margin: auto 30px auto auto;
 }
 
 .ux-research {
-    width: 30%;
+    max-width: 200px;
     float: right;
-    margin: auto auto auto 30px;
+    margin: auto 30px auto auto;
 }
 
 .front-end-dev {
-    width: 30%;
+    max-width: 200px;
     float: left;
     margin: auto 30px auto auto;
 }
@@ -84,14 +109,61 @@ a {
 }
 
 .skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
+    width: 60%;
+    margin: 100px auto 150px auto;
     text-align: left;
     line-height: 2;
 }
 
-.profile {
-    width: 75%;
-    margin: 100px auto 100px auto;
+.intro {
+    width: 50%;
     line-height: 2;
+    margin: auto;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 0.90rem;
+    margin-top: 30px;
+}
+
+/* Buttons & Links */
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto auto auto;
+}
+    
+.btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
 }
