@@ -65,6 +65,11 @@ hr {
     clear: left;
 }
 
+.contact-me {
+    max-width: 80%;
+    margin: auto;
+}
+
 /* Images */
 
 .top-cloud {
@@ -75,8 +80,14 @@ hr {
 
 .bottom-cloud {
     position: absolute;
+    top: 420px;
     left: 200px;
     bottom: 300px;
+}
+
+.mountain {
+    max-width: 100%;
+    margin: auto;
 }
 
 .ux-design {
@@ -116,7 +127,7 @@ hr {
 }
 
 .intro {
-    width: 50%;
+    width: 75%;
     line-height: 2;
     margin: auto;
 }
